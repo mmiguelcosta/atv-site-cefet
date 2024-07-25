@@ -66,14 +66,17 @@ main {
     text-align: justify;
     text-justify: inter-word;
     font-weight: 100;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
 }
 
-.principal ol, ul {
+.principal ul, ol {
     font-size: larger;
-    line-height: 50px;
     font-weight: 100;
-    padding: 0.5rem 2rem;
+    padding: 0 3rem;
+}
+
+.principal ol li{
+    padding: 1rem;
 }
 
 fieldset{
